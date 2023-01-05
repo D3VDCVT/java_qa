@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.stqa.pft.adressbook.tests.ContactDeleteTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-05T22:00:24" hostname="Z01-20000" time="4.034">
+  <properties/>
+  <testcase name="testContactDelete" classname="ru.stqa.pft.adressbook.tests.ContactDeleteTests" time="4.034"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+1672956025586	geckodriver	INFO	Listening on 127.0.0.1:28805
+1672956025821	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "40532" "--remote-allow-hosts" "localhost" "--remote-allow-origins" "http://127.0.0.1:40532/,http://localhost:40532/,http://[::1]:40532/" "-no-remote" "-profile" "C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileeTbE7K"
+1672956026064	Marionette	INFO	Marionette enabled
+1672956026068	Marionette	INFO	Listening on port 52272
+WebDriver BiDi listening on ws://localhost:40532
+Read port: 52272
+1672956026286	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\User\\AppData\\Local\\Temp\\rust_mozprofileeTbE7K\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:40532/devtools/browser/46ce1964-26da-4d45-89d3-dc6295cb6ee9
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://localhost"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1672956028418	CDP	ERROR	Invalid browser preferences for CDP. Set "fission.webContentIsolationStrategy"to 0 and "fission.bfcacheInParent" to false before Firefox starts.
+1672956028446	Marionette	INFO	Stopped listening on port 52272
+]]></system-err>
+</testsuite>

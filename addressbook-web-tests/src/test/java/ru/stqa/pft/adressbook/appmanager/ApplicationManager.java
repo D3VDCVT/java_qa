@@ -13,11 +13,9 @@ public class ApplicationManager {
     private  SessionHeplper sessionHeplper;
     private  NavigationHeplper navigationHeplper;
     private GroupHelper groupHelper;
+    private ContactHelper contactHelper;
     JavascriptExecutor js;
     private Map<String, Object> vars;
-
-    public ApplicationManager() {
-    }
 
     public void init() {
         driver = new FirefoxDriver();
@@ -27,6 +25,7 @@ public class ApplicationManager {
         groupHelper = new GroupHelper(driver);
         navigationHeplper = new NavigationHeplper(driver);
         sessionHeplper = new SessionHeplper(driver);
+        contactHelper = new ContactHelper(driver);
         sessionHeplper.login("admin", "secret");
     }
 
@@ -41,4 +40,6 @@ public class ApplicationManager {
     public NavigationHeplper getNavigationHeplper() {
         return navigationHeplper;
     }
+
+    public ContactHelper getContactHelper() { return contactHelper;}
 }
